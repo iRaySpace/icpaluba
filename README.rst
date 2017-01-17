@@ -1,7 +1,7 @@
 ICP Aluba
 =========
 
-.. image:: https://img.shields.io/badge/license-GNU__GPLv3-brightgreen.svg
+.. image:: https://img.shields.io/badge/license-GNU_GPLv3-brightgreen.svg
      :target: https://www.gnu.org/licenses/gpl-3.0.en.html
      :alt: GNU GPLv3
 
