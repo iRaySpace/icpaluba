@@ -1,4 +1,4 @@
-Currently using [JointsWP](http://jointswp.com/)(version of 01/17/17).
+Currently using [JointsWP](http://jointswp.com/) (version as of 01/17/17).
 
 ### What is ICP Aluba?
 ICP Aluba is a WordPress theme made for the Immaculate Conception Parish of Aluba as this is a project initiated by the academe for the students' social involvement.
