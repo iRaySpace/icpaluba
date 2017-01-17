@@ -1,3 +1,10 @@
+ICP Aluba
+=========
+
+.. image:: https://img.shields.io/badge/license-GNU_GPLv2-brightgreen.svg
+     :target: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
+     :alt: GNU GPLv2
+
 Using [JointsWP](http://jointswp.com/) (version as of 01/17/17) as the baseline.
 
 ### What is ICP Aluba?
