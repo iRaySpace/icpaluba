@@ -1,7 +1,7 @@
 ICP Aluba
 =========
 
-.. image:: https://img.shields.io/badge/license-GNU_GPLv2-brightgreen.svg
+.. image:: https://img.shields.io/badge/license-GNU__GPLv2-brightgreen.svg
      :target: https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html
      :alt: GNU GPLv2
 
