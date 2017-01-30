@@ -4368,19 +4368,41 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 .top-bar {
+  width: 100%;
+  position: absolute;
+  z-index: 5;
   /* icp aluba */
   font-weight: 700;
   background-color: #1779ba;
   padding: 0; }
   .top-bar .row {
-    border-bottom: 1px solid #d1d1d1; }
+    border-bottom: 1px solid #136399; }
+  .top-bar .menu {
+    background-color: #1779ba; }
   .top-bar .title-area {
     z-index: 1; }
   .top-bar li {
     background-color: #1779ba; }
     .top-bar li a {
       background-color: #1779ba;
-      color: #fff; }
+      color: #fff;
+      padding: 1.875rem 0.9375rem; }
+    .top-bar li a:hover {
+      background-color: #136399; }
+
+#top-bar-menu.sticky {
+  width: 100%;
+  position: fixed;
+  background-color: #156ea9;
+  border-bottom: 1px solid #136399; }
+  #top-bar-menu.sticky .row {
+    border: none; }
+  #top-bar-menu.sticky li {
+    background-color: #156ea9; }
+    #top-bar-menu.sticky li a {
+      background-color: #156ea9; }
+    #top-bar-menu.sticky li a:hover {
+      background-color: #136399; }
 
 .off-canvas-list ul {
   margin-left: 0; }
@@ -4389,15 +4411,26 @@ NAVIGATION STYLES
   .off-canvas-list ul .dropdown {
     margin-left: 20px; }
 
+#off-canvas {
+  background-color: #136399; }
+  #off-canvas a {
+    color: white; }
+  #off-canvas a:hover {
+    background-color: #0f4d77; }
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 #content #inner-content {
-  padding: 1rem 0rem; }
+  padding: 3.125rem 0rem; }
 
-.page-title .vcard {
-  border: 0px;
-  padding: 0px; }
+.page-title {
+  text-align: center;
+  color: #8a8a8a;
+  margin-bottom: 3.125rem; }
+  .page-title .vcard {
+    border: 0px;
+    padding: 0px; }
 
 .byline {
   color: #999; }
@@ -4603,7 +4636,10 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  margin-top: 1em; }
+  padding: 1.5625rem 0;
+  text-align: center;
+  color: #666666;
+  background-color: #062234; }
 
 /*********************
 FOUNDATION STYLES
@@ -4619,6 +4655,7 @@ PLUGIN STYLES
 CUSTOM STYLES
 *********************/
 #hero {
+  position: relative;
   padding: 15em 0 15em;
   background-color: #1779ba; }
   #hero #inner-hero {
@@ -4630,6 +4667,9 @@ CUSTOM STYLES
     #hero #inner-hero p {
       font-size: 1.25rem;
       color: #d1d1d1; }
+
+.button {
+  border-radius: 5px; }
 
 /******************************************************************
 

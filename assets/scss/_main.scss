@@ -65,6 +65,13 @@ NAVIGATION STYLES
 *********************/
 .top-bar {
 	
+	// sticky purposes
+	width: 100%;
+	position: absolute;
+
+	// on top
+	z-index: 5;
+
 	/* icp aluba */
 	font-weight: 700;
 	background-color: $primary-color;
@@ -72,7 +79,11 @@ NAVIGATION STYLES
 	padding: 0;
 
 	.row {
-		border-bottom: 1px solid scale-color(white, $lightness: -18%);
+		border-bottom: 1px solid scale-color($primary-color, $lightness: -18%);
+	}
+	
+	.menu {
+		background-color: $primary-color;
 	}
 
 	.title-area {
@@ -86,11 +97,43 @@ NAVIGATION STYLES
 		a {
 			background-color: $primary-color;
 			color: #fff;
+			padding: rem-calc(30) rem-calc(15);
 		}
 		
+		a:hover {
+			background-color: scale-color($primary-color, $lightness: -18%);
+		}
 	}
 
 } 
+
+#top-bar-menu.sticky {
+
+	width: 100%;
+	position: fixed;
+	background-color: scale-color($primary-color, $lightness: -9%);
+	border-bottom: 1px solid scale-color($primary-color, $lightness: -18%);
+	
+	// there should be no border after sticky
+	.row {
+		border: none;
+	}
+
+	li {
+		
+		background-color: scale-color($primary-color, $lightness: -9%);
+
+		a {
+			background-color: scale-color($primary-color, $lightness: -9%);
+		}
+		
+		a:hover {
+			background-color: scale-color($primary-color, $lightness: -18%);
+		}	
+
+	}
+
+}
 
 .off-canvas-list {
 	ul {
@@ -106,12 +149,26 @@ NAVIGATION STYLES
 	}
 }
 
+#off-canvas {
+	
+	background-color: scale-color($primary-color, $lightness: -18%);
+	
+	a {
+		color: white;
+	}
+
+	a:hover {
+		background-color: scale-color($primary-color, $lightness: -36%);
+	}
+
+}
+
 /*********************
 POSTS & CONTENT STYLES
 *********************/
 #content {
 	#inner-content {
-		padding: 1rem 0rem;
+		padding: rem-calc(50) 0rem;
 	}
 }
 
@@ -126,6 +183,10 @@ POSTS & CONTENT STYLES
 
 .page-title {
 	
+	text-align: center;
+	color: $dark-gray;
+	margin-bottom: rem-calc(50);
+
 	// Remove Foundation vcard styling from author page titles
 	.vcard {
 		border: 0px;
@@ -522,7 +583,10 @@ FOOTER STYLES
 *********************/
 .footer {
 	clear: both;
-	margin-top: 1em;
+	padding: rem-calc(25) 0;
+	text-align: center;
+	color: scale-color(white, $lightness: -60%);
+	background-color: scale-color($primary-color, $lightness: -72%);
 }
 	
 /*********************
@@ -543,6 +607,8 @@ CUSTOM STYLES
 *********************/
 #hero {
 	
+	position: relative;
+
 	padding: 15em 0 15em;
 	background-color: $primary-color;
 
@@ -564,4 +630,10 @@ CUSTOM STYLES
 	}
 
 
+}
+
+.button {
+	-webkit-border-radius: 5px;
+	-moz-border-radius:    5px;
+	border-radius:         5px;
 }

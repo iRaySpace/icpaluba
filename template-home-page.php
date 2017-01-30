@@ -30,7 +30,7 @@ Template Name: Home Page (exclusively)
 				
 				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-					<?php get_template_part( 'parts/loop', 'page' ); ?>
+					<?php get_template_part( 'parts/loop', 'index-page' ); ?>
 					
 				<?php endwhile; endif; ?>							
 

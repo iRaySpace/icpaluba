@@ -20,4 +20,20 @@ jQuery(document).ready(function() {
     }
   });
 
+  // Scroll and add sticky navigation
+  jQuery(window).scroll(function() {
+
+    // scroll value
+    var scrollValue = jQuery(this).scrollTop();
+
+    if ( scrollValue > 125 ) {
+      jQuery('#top-bar-menu').addClass('sticky')
+    } else {
+      jQuery('#top-bar-menu').removeClass('sticky');
+    }
+
+    // parallax
+    
+  });
+
 });
