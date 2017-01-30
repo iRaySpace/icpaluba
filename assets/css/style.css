@@ -4367,8 +4367,20 @@ HEADER STYLES
 /*********************
 NAVIGATION STYLES
 *********************/
-.top-bar .title-area {
-  z-index: 1; }
+.top-bar {
+  /* icp aluba */
+  font-weight: 700;
+  background-color: #1779ba;
+  padding: 0; }
+  .top-bar .row {
+    border-bottom: 1px solid #d1d1d1; }
+  .top-bar .title-area {
+    z-index: 1; }
+  .top-bar li {
+    background-color: #1779ba; }
+    .top-bar li a {
+      background-color: #1779ba;
+      color: #fff; }
 
 .off-canvas-list ul {
   margin-left: 0; }
@@ -4602,6 +4614,22 @@ PLUGIN STYLES
 .gform_body ul {
   list-style: none outside none;
   margin: 0; }
+
+/*********************
+CUSTOM STYLES
+*********************/
+#hero {
+  padding: 15em 0 15em;
+  background-color: #1779ba; }
+  #hero #inner-hero {
+    color: white;
+    text-align: center; }
+    #hero #inner-hero h2 {
+      font-size: 3rem;
+      font-weight: 700; }
+    #hero #inner-hero p {
+      font-size: 1.25rem;
+      color: #d1d1d1; }
 
 /******************************************************************
 

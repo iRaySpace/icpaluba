@@ -64,9 +64,32 @@ HEADER STYLES
 NAVIGATION STYLES
 *********************/
 .top-bar {
+	
+	/* icp aluba */
+	font-weight: 700;
+	background-color: $primary-color;
+	
+	padding: 0;
+
+	.row {
+		border-bottom: 1px solid scale-color(white, $lightness: -18%);
+	}
+
 	.title-area {
 		z-index: 1;
 	}
+
+	li {
+		
+		background-color: $primary-color;
+
+		a {
+			background-color: $primary-color;
+			color: #fff;
+		}
+		
+	}
+
 } 
 
 .off-canvas-list {
@@ -513,4 +536,32 @@ PLUGIN STYLES
 .gform_body ul {
     list-style: none outside none;
     margin: 0;
+}
+
+/*********************
+CUSTOM STYLES
+*********************/
+#hero {
+	
+	padding: 15em 0 15em;
+	background-color: $primary-color;
+
+	#inner-hero {
+
+		color: white;
+		text-align: center;
+	
+		h2 {
+			font-size: rem-calc(48);
+			font-weight: 700;
+		}
+
+		p {
+			font-size: rem-calc(20);
+			color: scale-color(white, $lightness: -18%);
+		}
+
+	}
+
+
 }
