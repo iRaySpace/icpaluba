@@ -4392,7 +4392,7 @@ NAVIGATION STYLES
       background-color: #136399; }
 
 #top-bar-menu.hidden {
-  transform: translate(0, -120px); }
+  transform: translate(0, -30px); }
 
 #top-bar-menu.sticky {
   width: 100%;
@@ -4672,6 +4672,10 @@ CUSTOM STYLES
     #hero #inner-hero p {
       font-size: 1.25rem;
       color: #d1d1d1; }
+
+#article-list {
+  padding: 3.125rem 0;
+  background-color: #e8e8e8; }
 
 .button {
   border-radius: 5px; }

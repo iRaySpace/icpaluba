@@ -12,9 +12,9 @@
 
 			</div>
 
-		</div>
+		</div> <!-- end of #inner-hero -->
 
-	</div>
+	</div> <!-- end of #hero -->
 
 	<div id="content">
 
@@ -22,12 +22,28 @@
 	
 		    <main id="main" class="large-12 medium-12 columns" role="main">
 				
-				<?php get_template_part( 'parts/loop', 'index-page' ); ?>						
+				<?php get_template_part( 'parts/loop', 'announcements' ); ?>
 
 			</main> <!-- end #main -->
 		    
 		</div> <!-- end #inner-content -->
-	
+		
+		<div id="article-list">
+			
+			<div class="row">
+
+				<?php get_template_part( 'parts/loop', 'latest-articles' ); ?>
+
+			</div>
+
+		</div> <!-- end #article-list -->	
+		
+		<div id="church-map">
+			
+			use google maps
+				
+		</div>
+
 	</div> <!-- end #content -->
 
 <?php get_footer(); ?>
