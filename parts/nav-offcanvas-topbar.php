@@ -5,7 +5,8 @@
 	<div class="row">
 		<div class="top-bar-left float-left">
 			<ul class="menu">
-				<li><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+				<li class="show-for-medium"><a href="<?php echo home_url(); ?>"><?php bloginfo('name'); ?></a></li>
+				<li class="show-for-small-only"><a href="<?php echo home_url(); ?>">ICP of Aluba</a></li>
 			</ul>
 		</div>
 		<div class="top-bar-right show-for-medium">

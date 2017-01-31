@@ -26,6 +26,12 @@ jQuery(document).ready(function() {
     // scroll value
     var scrollValue = jQuery(this).scrollTop();
 
+    if ( scrollValue > 60  && scrollValue < 125 ) {
+      jQuery('#top-bar-menu').addClass('hidden');
+    } else {
+      jQuery('#top-bar-menu').removeClass('hidden');
+    }
+
     if ( scrollValue > 125 ) {
       jQuery('#top-bar-menu').addClass('sticky')
     } else {

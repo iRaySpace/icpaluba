@@ -104,8 +104,14 @@ NAVIGATION STYLES
 			background-color: scale-color($primary-color, $lightness: -18%);
 		}
 	}
+	
+	transition: transform .3s;
 
 } 
+
+#top-bar-menu.hidden {
+	transform: translate(0, -30px);
+}
 
 #top-bar-menu.sticky {
 
@@ -113,7 +119,8 @@ NAVIGATION STYLES
 	position: fixed;
 	background-color: scale-color($primary-color, $lightness: -9%);
 	border-bottom: 1px solid scale-color($primary-color, $lightness: -18%);
-	
+	transform: translate(0, 0);
+
 	// there should be no border after sticky
 	.row {
 		border: none;

@@ -4374,7 +4374,8 @@ NAVIGATION STYLES
   /* icp aluba */
   font-weight: 700;
   background-color: #1779ba;
-  padding: 0; }
+  padding: 0;
+  transition: transform .3s; }
   .top-bar .row {
     border-bottom: 1px solid #136399; }
   .top-bar .menu {
@@ -4390,11 +4391,15 @@ NAVIGATION STYLES
     .top-bar li a:hover {
       background-color: #136399; }
 
+#top-bar-menu.hidden {
+  transform: translate(0, -120px); }
+
 #top-bar-menu.sticky {
   width: 100%;
   position: fixed;
   background-color: #156ea9;
-  border-bottom: 1px solid #136399; }
+  border-bottom: 1px solid #136399;
+  transform: translate(0, 0); }
   #top-bar-menu.sticky .row {
     border: none; }
   #top-bar-menu.sticky li {
