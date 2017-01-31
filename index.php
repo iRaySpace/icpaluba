@@ -1,32 +1,33 @@
 <?php get_header(); ?>
-			
-	<div id="content">
 	
+	<div id="hero">
+
+		<div id="inner-hero" class="row">
+			
+			<div class="large-12 columns">
+				
+				<h2>Lorem ipsum</h2>
+				
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet asperiores, dolorem quaerat dolores adipisci enim explicabo eveniet ab cupiditate deleniti nisi, eligendi voluptatem voluptas obcaecati? Blanditiis asperiores eos soluta! Inventore.</p>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div id="content">
+
 		<div id="inner-content" class="row">
 	
-		    <main id="main" class="large-8 medium-8 columns" role="main">
-		    
-			    <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-			 
-					<!-- To see additional archive styles, visit the /parts directory -->
-					<?php get_template_part( 'parts/loop', 'archive' ); ?>
-				    
-				<?php endwhile; ?>	
+		    <main id="main" class="large-12 medium-12 columns" role="main">
+				
+				<?php get_template_part( 'parts/loop', 'index-page' ); ?>						
 
-					<?php joints_page_navi(); ?>
-					
-				<?php else : ?>
-											
-					<?php get_template_part( 'parts/content', 'missing' ); ?>
-						
-				<?php endif; ?>
-																								
-		    </main> <!-- end #main -->
+			</main> <!-- end #main -->
 		    
-		    <?php get_sidebar(); ?>
-
 		</div> <!-- end #inner-content -->
-
+	
 	</div> <!-- end #content -->
 
 <?php get_footer(); ?>
