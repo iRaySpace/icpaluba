@@ -276,19 +276,19 @@ POSTS & CONTENT STYLES
 /*********************
 IMAGE GALLERY STYLES
 *********************/
-	.gallery {
+.gallery {
 
-		dl {
+	dl {
 
-			a {}
+		a {}
 
-			img {}
+		img {}
 
-		}
+	}
 
-		dt {}
+	dt {}
 
-		dd {}
+	dd {}
 
 } 
 
@@ -642,6 +642,11 @@ CUSTOM STYLES
 #article-list {
 	padding: rem-calc(50) 0;
 	background-color: scale-color(white, $lightness: -9%);
+}
+
+#church-map {
+	padding: rem-calc(50) 0;
+	background-color: scale-color($primary-color, $lightness: -9%);
 }
 
 .button {
