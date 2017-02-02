@@ -639,6 +639,10 @@ CUSTOM STYLES
 
 }
 
+#hero.small {
+	padding: 10em 0;
+}
+
 #article-list {
 	padding: rem-calc(50) 0;
 	background-color: scale-color(white, $lightness: -9%);

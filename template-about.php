@@ -6,7 +6,7 @@ Template Name: About page
 
 <?php get_header(); ?>
 	
-	<div id="hero">
+	<div id="hero" class="small">
 		<!-- should be small -->
 		<div id="inner-hero" class="row">
 			

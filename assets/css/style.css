@@ -4673,6 +4673,9 @@ CUSTOM STYLES
       font-size: 1.25rem;
       color: #d1d1d1; }
 
+#hero.small {
+  padding: 10em 0; }
+
 #article-list {
   padding: 3.125rem 0;
   background-color: #e8e8e8; }
