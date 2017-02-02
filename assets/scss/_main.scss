@@ -649,6 +649,11 @@ CUSTOM STYLES
 	background-color: scale-color($primary-color, $lightness: -9%);
 }
 
+#history {
+	padding: rem-calc(50) 0;
+	background-color: scale-color(white, $lightness: -9%);
+}
+
 .button {
 	-webkit-border-radius: 5px;
 	-moz-border-radius:    5px;
