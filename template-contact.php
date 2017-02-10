@@ -7,7 +7,7 @@ Template Name: Contact page
 <?php get_header(); ?>
 	
 	<div id="hero" class="small">
-		<!-- should be small -->
+
 		<div id="inner-hero" class="row">
 			
 			<div class="large-12 columns">

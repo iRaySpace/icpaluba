@@ -1,5 +1,9 @@
 <?php get_header(); ?>
-			
+
+<div class="space">
+	
+</div>
+
 <div id="content">
 
 	<div id="inner-content" class="row">

@@ -4682,6 +4682,7 @@ CUSTOM STYLES
 
 #church-map {
   padding: 3.125rem 0;
+  color: white;
   background-color: #156ea9; }
 
 #history {
@@ -4690,6 +4691,13 @@ CUSTOM STYLES
 
 .button {
   border-radius: 5px; }
+
+.space {
+  min-height: 75px; }
+
+hr.misvis-separator {
+  height: 100px;
+  border: 0; }
 
 /******************************************************************
 
